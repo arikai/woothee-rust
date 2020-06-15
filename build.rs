@@ -317,7 +317,7 @@ mod inner {
         let _ = Command::new("git")
             .arg("clone")
             .arg("-q")
-            .arg("https://github.com/woothee/woothee.git")
+            .arg("https://github.com/arikai/woothee.git")
             .output()
             .unwrap();
 
